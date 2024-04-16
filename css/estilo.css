@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: rgb(187, 150, 166);
+    width: 100%;
+    height: 80px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display:inline;
+    color: aliceblue;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding:19px;
+    
+}
+nav{
+    padding-top: 30px;
+    padding-right: 11%;
+    margin-left: auto;
+    float: inline-end;
+}
+#topo{
+    height: 80%;
+    display: flex;
+}
+.imagemheader{
+    margin-left: 200px;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+    font-size: 30px;
+    padding-left: 190px; 
+    padding-top: 8%;
+}
+section{
+    display: flex;
+}
+
+#imgcentro{
+    
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 8px;
+}
+.subtitulo{
+    padding-left: 190px; 
+    padding-top: 2%;
+}
+#titulocontato{
+    font-size: 30px;
+    padding-left: 350px; 
+    padding-top: 3%;
+}
+.subtitulocontato{
+    padding-left: 350px;
+    font-size: 17px;
+    padding-top: 1%;
+
+}
+#button
+{
+    margin-left: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(187, 150, 166);
+    border:none;
+    border-radius: 8px;
+    margin-top: 10px;
+    float: right;
+   
+}
+ input[type=tel]{
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 5px;
+    height: 120px;
+    width: 65%;
+   margin-bottom: 25px;
+   border-radius: 10px;
+   border-style: double;
+   border-color:  rgb(179, 179, 179);
+}
+input[type = name], input[type = email]
+{
+    margin-left: 350px;
+    width: 100%;
+    height: 31px;
+    width: 65%;
+   margin-bottom: 25px;
+   border-radius: 10px;
+   border-style: double;
+   border-color:  rgb(179, 179, 179);
+}
+.titulosbaixos{
+    margin-left: 350px;
+    font-size:18px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#esquerdaportifolio{
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 265px;
+    margin-left: 12%;
+    border-radius: 7px;
+    border-right: 10px solid rgb(197, 197, 197);
+    border-bottom: 10px solid rgb(197, 197, 197);
+    background-color: rgb(255, 255, 255);
+}
+.imgportifolio{
+    height: 30%;
+    width: 30%;
+    margin-left: 75px;
+}
+#direitaportifolio{
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 265px;
+    margin-left: 12%;
+    border-radius: 7px;
+    border-right: 10px solid rgb(197, 197, 197);
+    border-bottom: 10px solid rgb(197, 197, 197);
+    background-color: rgb(255, 255, 255);
+
+}
+.buttonportifolio{
+    margin-left: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    width: 238px;
+    color: white;
+    background-color: rgb(187, 150, 166);
+    border:none;
+    margin-top: 27px;
+    float: right;
+}
+.tituloportifolio{
+font-size: 20px;
+}
+.subtituloportifolio{
+    font-size: 20px;
+    word-spacing: 20px;
+}
